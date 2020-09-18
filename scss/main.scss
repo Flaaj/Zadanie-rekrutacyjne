@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 40vw * 9 / 16;
+}
+
+img { 
+    height: 100%;
+    max-width: 33%;
+}
+
+button {
+    height: 80px;
+    width: 200px;
+    margin: 20px;
+}
